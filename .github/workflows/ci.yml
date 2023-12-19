@@ -23,4 +23,4 @@ jobs:
         run: ./vendor/bin/phpunit
 
       - name: Run Fixer
-        run: ./vendor/bin/pint --test --config.json
+        run: ./vendor/bin/pint --test --config pint.json
